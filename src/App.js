@@ -1,20 +1,17 @@
 import React from 'react';
-import {
-    MethodDelete,
-    MethodUpdate,
-    MethodGet,
-	MethodPost
-} from './Methods';
+import MethodDelete from './MethodDelete';
+import MethodGet from './MethodGet';
+import MethodPost from './MethodPost';
+import MethodUpdate from './MethodUpdate';
+import Teste from './Teste';
 
 function App() {
 
 	return (
 	<> 
-	<h1>teste app</h1>
-		<MethodPost/>
-		<MethodGet/>
-        <MethodUpdate/>
-		<MethodDelete/>
+	<MethodPost />
+	<MethodUpdate />
+	<MethodDelete />
 	</>
 	);
 }

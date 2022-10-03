@@ -5,7 +5,6 @@ const POST = (headline, articleBody) => {
         method: 'POST',
         headers: { 
             'Content-Type': 'application/json',
-            Authorization: 'Basic ' + btoa('test@liferay.com:123')
         },
         body: JSON.stringify({
             headline,
