@@ -1,6 +1,6 @@
 "use strict";
 
-Liferay.Loader.define("react-clay@1.0.0/App", ['module', 'exports', 'require', 'react-clay$react', './Methods'], function (module, exports, require) {
+Liferay.Loader.define("react-clay@1.0.0/App", ['module', 'exports', 'require', 'react-clay$react', './MethodDelete', './MethodGet', './MethodUpdate'], function (module, exports, require) {
   var define = undefined;
   var global = window;
   {
@@ -11,14 +11,18 @@ Liferay.Loader.define("react-clay@1.0.0/App", ['module', 'exports', 'require', '
 
     var _react = _interopRequireDefault(require("react-clay$react"));
 
-    var _Methods = require("./Methods");
+    var _MethodDelete = _interopRequireDefault(require("./MethodDelete"));
+
+    var _MethodGet = _interopRequireDefault(require("./MethodGet"));
+
+    var _MethodUpdate = _interopRequireDefault(require("./MethodUpdate"));
 
     function _interopRequireDefault(obj) {
       return obj && obj.__esModule ? obj : { "default": obj };
     }
 
     function App() {
-      return (/*#__PURE__*/_react["default"].createElement(_react["default"].Fragment, null, /*#__PURE__*/_react["default"].createElement("h1", null, "teste app"), /*#__PURE__*/_react["default"].createElement(_Methods.MethodPost, null), /*#__PURE__*/_react["default"].createElement(_Methods.MethodGet, null), /*#__PURE__*/_react["default"].createElement(_Methods.MethodUpdate, null), /*#__PURE__*/_react["default"].createElement(_Methods.MethodDelete, null))
+      return (/*#__PURE__*/_react["default"].createElement(_react["default"].Fragment, null, /*#__PURE__*/_react["default"].createElement(_MethodGet["default"], null), /*#__PURE__*/_react["default"].createElement("hr", null), /*#__PURE__*/_react["default"].createElement(_MethodUpdate["default"], null), /*#__PURE__*/_react["default"].createElement("hr", null), /*#__PURE__*/_react["default"].createElement(_MethodDelete["default"], null))
       );
     }
 

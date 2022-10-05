@@ -25,7 +25,7 @@ Liferay.Loader.define("react-clay@1.0.0/index", ['module', 'exports', 'require',
           portletElementId = _ref.portletElementId,
           configuration = _ref.configuration;
 
-      _reactDom["default"].render( /*#__PURE__*/_react["default"].createElement("h1", null, "teste index"), /*#__PURE__*/_react["default"].createElement(_App["default"], null), document.getElementById(portletElementId));
+      _reactDom["default"].render( /*#__PURE__*/_react["default"].createElement(_App["default"], null), document.getElementById(portletElementId));
     }
     //# sourceMappingURL=index.js.map
   }

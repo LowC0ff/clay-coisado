@@ -1,21 +1,22 @@
 import React, { useState } from 'react'
-import POST from './Request'
+import { POST, docPOST } from './Request'
 import ClayForm, { ClayInput } from "@clayui/form"
 import ClayButton from "@clayui/button"
 
 function MethodPost() {
 	const [ headline, setHeadline ] = useState('')
 	const [ articleBody, setArticleBody ] = useState('')
-	const funcOnclick = () => {
+
+	function funcOnclick() {
 		POST(headline, articleBody)
-		.then(() => setHeadline(''), setArticleBody(''))
+		.then(() =>  { setHeadline(''); setArticleBody('') })
 	}
   
 	return (
 	  <>
 		<ClayForm>
 		  <ClayForm.Group className = 'form-group-sm'>
-			<h1>-POST-</h1>
+			<h2>POST BlogPostings</h2>
 			<label htmlFor = 'basicInput'>headline</label>
 			<ClayInput
 			  id = 'headline'
@@ -36,10 +37,18 @@ function MethodPost() {
 			/>
 		  </ClayForm.Group>
 
-		  <ClayButton onClick = { funcOnclick } displayType = 'primary'>
-					CADASTRAR
+		  <ClayButton onClick = { () => funcOnclick() } displayType = 'primary'>
+					POST
 		  </ClayButton>
+		  <hr/>
 		</ClayForm>
+			<h2>POST Documents and Media</h2>
+			<input 
+				type = 'file' 
+				id = 'fileDoc'/>
+		<ClayButton onClick = { () => docPOST() } displayType = 'secondary'>
+			POST DOC
+		</ClayButton>
 	  </>
 	);
   };

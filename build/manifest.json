@@ -13,6 +13,26 @@
             "esModule": true
           }
         },
+        "MethodDelete.js": {
+          "flags": {
+            "esModule": true
+          }
+        },
+        "MethodGet.js": {
+          "flags": {
+            "esModule": true
+          }
+        },
+        "MethodPost.js": {
+          "flags": {
+            "esModule": true
+          }
+        },
+        "MethodUpdate.js": {
+          "flags": {
+            "esModule": true
+          }
+        },
         "Methods.js": {
           "flags": {
             "esModule": true
@@ -23,7 +43,17 @@
             "esModule": true
           }
         },
+        "Teste.js": {
+          "flags": {
+            "esModule": true
+          }
+        },
         "index.js": {
+          "flags": {
+            "esModule": true
+          }
+        },
+        "teste.js": {
           "flags": {
             "esModule": true
           }
@@ -34,6 +64,512 @@
         "id": "/",
         "name": "react-clay",
         "version": "1.0.0"
+      }
+    },
+    "@babel/runtime@7.19.0": {
+      "dest": {
+        "dir": "./build/node_modules/@react-clay$babel%2Fruntime@7.19.0",
+        "id": "@react-clay$babel/runtime@7.19.0",
+        "name": "@react-clay$babel/runtime",
+        "version": "7.19.0"
+      },
+      "modules": {
+        "helpers/AsyncGenerator.js": {
+          "flags": {
+            "esModule": true
+          }
+        },
+        "helpers/AwaitValue.js": {
+          "flags": {
+            "esModule": true
+          }
+        },
+        "helpers/OverloadYield.js": {
+          "flags": {
+            "esModule": true
+          }
+        },
+        "helpers/applyDecoratedDescriptor.js": {
+          "flags": {
+            "esModule": true
+          }
+        },
+        "helpers/applyDecs.js": {
+          "flags": {
+            "esModule": true
+          }
+        },
+        "helpers/applyDecs2203.js": {
+          "flags": {
+            "esModule": true
+          }
+        },
+        "helpers/arrayLikeToArray.js": {
+          "flags": {
+            "esModule": true
+          }
+        },
+        "helpers/arrayWithHoles.js": {
+          "flags": {
+            "esModule": true
+          }
+        },
+        "helpers/arrayWithoutHoles.js": {
+          "flags": {
+            "esModule": true
+          }
+        },
+        "helpers/assertThisInitialized.js": {
+          "flags": {
+            "esModule": true
+          }
+        },
+        "helpers/asyncGeneratorDelegate.js": {
+          "flags": {
+            "esModule": true
+          }
+        },
+        "helpers/asyncIterator.js": {
+          "flags": {
+            "esModule": true
+          }
+        },
+        "helpers/asyncToGenerator.js": {
+          "flags": {
+            "esModule": true
+          }
+        },
+        "helpers/awaitAsyncGenerator.js": {
+          "flags": {
+            "esModule": true
+          }
+        },
+        "helpers/checkPrivateRedeclaration.js": {
+          "flags": {
+            "esModule": true
+          }
+        },
+        "helpers/classApplyDescriptorDestructureSet.js": {
+          "flags": {
+            "esModule": true
+          }
+        },
+        "helpers/classApplyDescriptorGet.js": {
+          "flags": {
+            "esModule": true
+          }
+        },
+        "helpers/classApplyDescriptorSet.js": {
+          "flags": {
+            "esModule": true
+          }
+        },
+        "helpers/classCallCheck.js": {
+          "flags": {
+            "esModule": true
+          }
+        },
+        "helpers/classCheckPrivateStaticAccess.js": {
+          "flags": {
+            "esModule": true
+          }
+        },
+        "helpers/classCheckPrivateStaticFieldDescriptor.js": {
+          "flags": {
+            "esModule": true
+          }
+        },
+        "helpers/classExtractFieldDescriptor.js": {
+          "flags": {
+            "esModule": true
+          }
+        },
+        "helpers/classNameTDZError.js": {
+          "flags": {
+            "esModule": true
+          }
+        },
+        "helpers/classPrivateFieldDestructureSet.js": {
+          "flags": {
+            "esModule": true
+          }
+        },
+        "helpers/classPrivateFieldGet.js": {
+          "flags": {
+            "esModule": true
+          }
+        },
+        "helpers/classPrivateFieldInitSpec.js": {
+          "flags": {
+            "esModule": true
+          }
+        },
+        "helpers/classPrivateFieldLooseBase.js": {
+          "flags": {
+            "esModule": true
+          }
+        },
+        "helpers/classPrivateFieldLooseKey.js": {
+          "flags": {
+            "esModule": true
+          }
+        },
+        "helpers/classPrivateFieldSet.js": {
+          "flags": {
+            "esModule": true
+          }
+        },
+        "helpers/classPrivateMethodGet.js": {
+          "flags": {
+            "esModule": true
+          }
+        },
+        "helpers/classPrivateMethodInitSpec.js": {
+          "flags": {
+            "esModule": true
+          }
+        },
+        "helpers/classPrivateMethodSet.js": {
+          "flags": {
+            "esModule": true
+          }
+        },
+        "helpers/classStaticPrivateFieldDestructureSet.js": {
+          "flags": {
+            "esModule": true
+          }
+        },
+        "helpers/classStaticPrivateFieldSpecGet.js": {
+          "flags": {
+            "esModule": true
+          }
+        },
+        "helpers/classStaticPrivateFieldSpecSet.js": {
+          "flags": {
+            "esModule": true
+          }
+        },
+        "helpers/classStaticPrivateMethodGet.js": {
+          "flags": {
+            "esModule": true
+          }
+        },
+        "helpers/classStaticPrivateMethodSet.js": {
+          "flags": {
+            "esModule": true
+          }
+        },
+        "helpers/construct.js": {
+          "flags": {
+            "esModule": true
+          }
+        },
+        "helpers/createClass.js": {
+          "flags": {
+            "esModule": true
+          }
+        },
+        "helpers/createForOfIteratorHelper.js": {
+          "flags": {
+            "esModule": true
+          }
+        },
+        "helpers/createForOfIteratorHelperLoose.js": {
+          "flags": {
+            "esModule": true
+          }
+        },
+        "helpers/createSuper.js": {
+          "flags": {
+            "esModule": true
+          }
+        },
+        "helpers/decorate.js": {
+          "flags": {
+            "esModule": true
+          }
+        },
+        "helpers/defaults.js": {
+          "flags": {
+            "esModule": true
+          }
+        },
+        "helpers/defineEnumerableProperties.js": {
+          "flags": {
+            "esModule": true
+          }
+        },
+        "helpers/defineProperty.js": {
+          "flags": {
+            "esModule": true
+          }
+        },
+        "helpers/esm/interopRequireDefault.js": {
+          "flags": {
+            "esModule": true
+          }
+        },
+        "helpers/esm/interopRequireWildcard.js": {
+          "flags": {
+            "esModule": true
+          }
+        },
+        "helpers/extends.js": {
+          "flags": {
+            "esModule": true
+          }
+        },
+        "helpers/get.js": {
+          "flags": {
+            "esModule": true
+          }
+        },
+        "helpers/getPrototypeOf.js": {
+          "flags": {
+            "esModule": true
+          }
+        },
+        "helpers/identity.js": {
+          "flags": {
+            "esModule": true
+          }
+        },
+        "helpers/inherits.js": {
+          "flags": {
+            "esModule": true
+          }
+        },
+        "helpers/inheritsLoose.js": {
+          "flags": {
+            "esModule": true
+          }
+        },
+        "helpers/initializerDefineProperty.js": {
+          "flags": {
+            "esModule": true
+          }
+        },
+        "helpers/initializerWarningHelper.js": {
+          "flags": {
+            "esModule": true
+          }
+        },
+        "helpers/instanceof.js": {
+          "flags": {
+            "esModule": true
+          }
+        },
+        "helpers/interopRequireDefault.js": {
+          "flags": {
+            "esModule": true
+          }
+        },
+        "helpers/interopRequireWildcard.js": {
+          "flags": {
+            "esModule": true
+          }
+        },
+        "helpers/isNativeFunction.js": {
+          "flags": {
+            "esModule": true
+          }
+        },
+        "helpers/isNativeReflectConstruct.js": {
+          "flags": {
+            "esModule": true
+          }
+        },
+        "helpers/iterableToArray.js": {
+          "flags": {
+            "esModule": true
+          }
+        },
+        "helpers/iterableToArrayLimit.js": {
+          "flags": {
+            "esModule": true
+          }
+        },
+        "helpers/iterableToArrayLimitLoose.js": {
+          "flags": {
+            "esModule": true
+          }
+        },
+        "helpers/jsx.js": {
+          "flags": {
+            "esModule": true
+          }
+        },
+        "helpers/maybeArrayLike.js": {
+          "flags": {
+            "esModule": true
+          }
+        },
+        "helpers/newArrowCheck.js": {
+          "flags": {
+            "esModule": true
+          }
+        },
+        "helpers/nonIterableRest.js": {
+          "flags": {
+            "esModule": true
+          }
+        },
+        "helpers/nonIterableSpread.js": {
+          "flags": {
+            "esModule": true
+          }
+        },
+        "helpers/objectDestructuringEmpty.js": {
+          "flags": {
+            "esModule": true
+          }
+        },
+        "helpers/objectSpread.js": {
+          "flags": {
+            "esModule": true
+          }
+        },
+        "helpers/objectSpread2.js": {
+          "flags": {
+            "esModule": true
+          }
+        },
+        "helpers/objectWithoutProperties.js": {
+          "flags": {
+            "esModule": true
+          }
+        },
+        "helpers/objectWithoutPropertiesLoose.js": {
+          "flags": {
+            "esModule": true
+          }
+        },
+        "helpers/possibleConstructorReturn.js": {
+          "flags": {
+            "esModule": true
+          }
+        },
+        "helpers/readOnlyError.js": {
+          "flags": {
+            "esModule": true
+          }
+        },
+        "helpers/regeneratorRuntime.js": {
+          "flags": {
+            "esModule": true
+          }
+        },
+        "helpers/set.js": {
+          "flags": {
+            "esModule": true
+          }
+        },
+        "helpers/setPrototypeOf.js": {
+          "flags": {
+            "esModule": true
+          }
+        },
+        "helpers/skipFirstGeneratorNext.js": {
+          "flags": {
+            "esModule": true
+          }
+        },
+        "helpers/slicedToArray.js": {
+          "flags": {
+            "esModule": true
+          }
+        },
+        "helpers/slicedToArrayLoose.js": {
+          "flags": {
+            "esModule": true
+          }
+        },
+        "helpers/superPropBase.js": {
+          "flags": {
+            "esModule": true
+          }
+        },
+        "helpers/taggedTemplateLiteral.js": {
+          "flags": {
+            "esModule": true
+          }
+        },
+        "helpers/taggedTemplateLiteralLoose.js": {
+          "flags": {
+            "esModule": true
+          }
+        },
+        "helpers/tdz.js": {
+          "flags": {
+            "esModule": true
+          }
+        },
+        "helpers/temporalRef.js": {
+          "flags": {
+            "esModule": true
+          }
+        },
+        "helpers/temporalUndefined.js": {
+          "flags": {
+            "esModule": true
+          }
+        },
+        "helpers/toArray.js": {
+          "flags": {
+            "esModule": true
+          }
+        },
+        "helpers/toConsumableArray.js": {
+          "flags": {
+            "esModule": true
+          }
+        },
+        "helpers/toPrimitive.js": {
+          "flags": {
+            "esModule": true
+          }
+        },
+        "helpers/toPropertyKey.js": {
+          "flags": {
+            "esModule": true
+          }
+        },
+        "helpers/typeof.js": {
+          "flags": {
+            "esModule": true
+          }
+        },
+        "helpers/unsupportedIterableToArray.js": {
+          "flags": {
+            "esModule": true
+          }
+        },
+        "helpers/wrapAsyncGenerator.js": {
+          "flags": {
+            "esModule": true
+          }
+        },
+        "helpers/wrapNativeSuper.js": {
+          "flags": {
+            "esModule": true
+          }
+        },
+        "helpers/wrapRegExp.js": {
+          "flags": {
+            "esModule": true
+          }
+        },
+        "helpers/writeOnlyError.js": {
+          "flags": {
+            "esModule": true
+          }
+        }
+      },
+      "src": {
+        "dir": "./node_modules/@babel/runtime",
+        "id": "@babel/runtime@7.19.0",
+        "name": "@babel/runtime",
+        "version": "7.19.0"
       }
     },
     "@clayui/button@3.73.0": {
@@ -70,6 +606,198 @@
         "id": "@clayui/button@3.73.0",
         "name": "@clayui/button",
         "version": "3.73.0"
+      }
+    },
+    "@clayui/card@3.75.2": {
+      "dest": {
+        "dir": "./build/node_modules/@react-clay$clayui%2Fcard@3.75.2",
+        "id": "@react-clay$clayui/card@3.75.2",
+        "name": "@react-clay$clayui/card",
+        "version": "3.75.2"
+      },
+      "modules": {
+        "lib/AspectRatio.js": {
+          "flags": {
+            "esModule": true
+          }
+        },
+        "lib/Body.js": {
+          "flags": {
+            "esModule": true
+          }
+        },
+        "lib/Caption.js": {
+          "flags": {
+            "esModule": true
+          }
+        },
+        "lib/Card.js": {
+          "flags": {
+            "esModule": true
+          }
+        },
+        "lib/CardHorizontal.js": {
+          "flags": {
+            "esModule": true
+          }
+        },
+        "lib/CardNavigation.js": {
+          "flags": {
+            "esModule": true
+          }
+        },
+        "lib/CardWithHorizontal.js": {
+          "flags": {
+            "esModule": true
+          }
+        },
+        "lib/CardWithInfo.js": {
+          "flags": {
+            "esModule": true
+          }
+        },
+        "lib/CardWithNavigation.js": {
+          "flags": {
+            "esModule": true
+          }
+        },
+        "lib/CardWithUser.js": {
+          "flags": {
+            "esModule": true
+          }
+        },
+        "lib/Context.js": {
+          "flags": {
+            "esModule": true
+          }
+        },
+        "lib/Description.js": {
+          "flags": {
+            "esModule": true
+          }
+        },
+        "lib/Group.js": {
+          "flags": {
+            "esModule": true
+          }
+        },
+        "lib/Row.js": {
+          "flags": {
+            "esModule": true
+          }
+        },
+        "lib/index.js": {
+          "flags": {
+            "esModule": true
+          }
+        }
+      },
+      "src": {
+        "dir": "./node_modules/@clayui/card",
+        "id": "@clayui/card@3.75.2",
+        "name": "@clayui/card",
+        "version": "3.75.2"
+      }
+    },
+    "@clayui/drop-down@3.75.2": {
+      "dest": {
+        "dir": "./build/node_modules/@react-clay$clayui%2Fdrop-down@3.75.2",
+        "id": "@react-clay$clayui/drop-down@3.75.2",
+        "name": "@react-clay$clayui/drop-down",
+        "version": "3.75.2"
+      },
+      "modules": {
+        "lib/Action.js": {
+          "flags": {
+            "esModule": true
+          }
+        },
+        "lib/Caption.js": {
+          "flags": {
+            "esModule": true
+          }
+        },
+        "lib/Divider.js": {
+          "flags": {
+            "esModule": true
+          }
+        },
+        "lib/DropDown.js": {
+          "flags": {
+            "esModule": true
+          }
+        },
+        "lib/DropDownContext.js": {
+          "flags": {
+            "esModule": true
+          }
+        },
+        "lib/DropDownWithDrilldown.js": {
+          "flags": {
+            "esModule": true
+          }
+        },
+        "lib/DropDownWithItems.js": {
+          "flags": {
+            "esModule": true
+          }
+        },
+        "lib/Group.js": {
+          "flags": {
+            "esModule": true
+          }
+        },
+        "lib/Help.js": {
+          "flags": {
+            "esModule": true
+          }
+        },
+        "lib/Item.js": {
+          "flags": {
+            "esModule": true
+          }
+        },
+        "lib/ItemList.js": {
+          "flags": {
+            "esModule": true
+          }
+        },
+        "lib/Menu.js": {
+          "flags": {
+            "esModule": true
+          }
+        },
+        "lib/Search.js": {
+          "flags": {
+            "esModule": true
+          }
+        },
+        "lib/Section.js": {
+          "flags": {
+            "esModule": true
+          }
+        },
+        "lib/drilldown/Menu.js": {
+          "flags": {
+            "esModule": true
+          }
+        },
+        "lib/drilldown/index.js": {
+          "flags": {
+            "esModule": true
+          }
+        },
+        "lib/index.js": {
+          "flags": {
+            "esModule": true
+          }
+        }
+      },
+      "src": {
+        "dir": "./node_modules/@clayui/card/node_modules/@clayui/drop-down",
+        "id": "@clayui/drop-down@3.75.2",
+        "name": "@clayui/drop-down",
+        "version": "3.75.2"
       }
     },
     "@clayui/form@3.75.2": {
@@ -162,6 +890,78 @@
         "id": "@clayui/icon@3.56.0",
         "name": "@clayui/icon",
         "version": "3.56.0"
+      }
+    },
+    "@clayui/label@3.56.0": {
+      "dest": {
+        "dir": "./build/node_modules/@react-clay$clayui%2Flabel@3.56.0",
+        "id": "@react-clay$clayui/label@3.56.0",
+        "name": "@react-clay$clayui/label",
+        "version": "3.56.0"
+      },
+      "modules": {
+        "lib/index.js": {
+          "flags": {
+            "esModule": true
+          }
+        }
+      },
+      "src": {
+        "dir": "./node_modules/@clayui/card/node_modules/@clayui/label",
+        "id": "@clayui/label@3.56.0",
+        "name": "@clayui/label",
+        "version": "3.56.0"
+      }
+    },
+    "@clayui/layout@3.65.1": {
+      "dest": {
+        "dir": "./build/node_modules/@react-clay$clayui%2Flayout@3.65.1",
+        "id": "@react-clay$clayui/layout@3.65.1",
+        "name": "@react-clay$clayui/layout",
+        "version": "3.65.1"
+      },
+      "modules": {
+        "lib/Col.js": {
+          "flags": {
+            "esModule": true
+          }
+        },
+        "lib/Container.js": {
+          "flags": {
+            "esModule": true
+          }
+        },
+        "lib/ContainerFluid.js": {
+          "flags": {
+            "esModule": true
+          }
+        },
+        "lib/Content.js": {
+          "flags": {
+            "esModule": true
+          }
+        },
+        "lib/Row.js": {
+          "flags": {
+            "esModule": true
+          }
+        },
+        "lib/Sheet.js": {
+          "flags": {
+            "esModule": true
+          }
+        },
+        "lib/index.js": {
+          "flags": {
+            "esModule": true
+          }
+        }
+      },
+      "src": {
+        "dir": "./node_modules/@clayui/card/node_modules/@clayui/layout",
+        "id": "@clayui/layout@3.65.1",
+        "name": "@clayui/layout",
+        "version": "3.65.1"
       }
     },
     "@clayui/link@3.56.0": {
@@ -327,6 +1127,27 @@
         "version": "3.75.2"
       }
     },
+    "@clayui/sticker@3.65.0": {
+      "dest": {
+        "dir": "./build/node_modules/@react-clay$clayui%2Fsticker@3.65.0",
+        "id": "@react-clay$clayui/sticker@3.65.0",
+        "name": "@react-clay$clayui/sticker",
+        "version": "3.65.0"
+      },
+      "modules": {
+        "lib/index.js": {
+          "flags": {
+            "esModule": true
+          }
+        }
+      },
+      "src": {
+        "dir": "./node_modules/@clayui/card/node_modules/@clayui/sticker",
+        "id": "@clayui/sticker@3.65.0",
+        "name": "@clayui/sticker",
+        "version": "3.65.0"
+      }
+    },
     "@clayui/table@3.56.0": {
       "dest": {
         "dir": "./build/node_modules/@react-clay$clayui%2Ftable@3.56.0",
@@ -373,6 +1194,27 @@
         "version": "3.56.0"
       }
     },
+    "aria-hidden@1.2.1": {
+      "dest": {
+        "dir": "./build/node_modules/react-clay$aria-hidden@1.2.1",
+        "id": "react-clay$aria-hidden@1.2.1",
+        "name": "react-clay$aria-hidden",
+        "version": "1.2.1"
+      },
+      "modules": {
+        "dist/es5/index.js": {
+          "flags": {
+            "esModule": true
+          }
+        }
+      },
+      "src": {
+        "dir": "./node_modules/@clayui/card/node_modules/@clayui/drop-down/node_modules/aria-hidden",
+        "id": "aria-hidden@1.2.1",
+        "name": "aria-hidden",
+        "version": "1.2.1"
+      }
+    },
     "classnames@2.3.2": {
       "dest": {
         "dir": "./build/node_modules/react-clay$classnames@2.3.2",
@@ -385,6 +1227,20 @@
         "id": "classnames@2.3.2",
         "name": "classnames",
         "version": "2.3.2"
+      }
+    },
+    "csstype@3.1.1": {
+      "dest": {
+        "dir": "./build/node_modules/react-clay$csstype@3.1.1",
+        "id": "react-clay$csstype@3.1.1",
+        "name": "react-clay$csstype",
+        "version": "3.1.1"
+      },
+      "src": {
+        "dir": "./node_modules/csstype",
+        "id": "csstype@3.1.1",
+        "name": "csstype",
+        "version": "3.1.1"
       }
     },
     "dom-align@1.12.3": {
@@ -406,6 +1262,302 @@
         "id": "dom-align@1.12.3",
         "name": "dom-align",
         "version": "1.12.3"
+      }
+    },
+    "dom-helpers@5.2.1": {
+      "dest": {
+        "dir": "./build/node_modules/react-clay$dom-helpers@5.2.1",
+        "id": "react-clay$dom-helpers@5.2.1",
+        "name": "react-clay$dom-helpers",
+        "version": "5.2.1"
+      },
+      "modules": {
+        "cjs/activeElement.js": {
+          "flags": {
+            "esModule": true
+          }
+        },
+        "cjs/addClass.js": {
+          "flags": {
+            "esModule": true
+          }
+        },
+        "cjs/addEventListener.js": {
+          "flags": {
+            "esModule": true
+          }
+        },
+        "cjs/animate.js": {
+          "flags": {
+            "esModule": true
+          }
+        },
+        "cjs/animationFrame.js": {
+          "flags": {
+            "esModule": true
+          }
+        },
+        "cjs/attribute.js": {
+          "flags": {
+            "esModule": true
+          }
+        },
+        "cjs/camelize.js": {
+          "flags": {
+            "esModule": true
+          }
+        },
+        "cjs/camelizeStyle.js": {
+          "flags": {
+            "esModule": true
+          }
+        },
+        "cjs/canUseDOM.js": {
+          "flags": {
+            "esModule": true
+          }
+        },
+        "cjs/childElements.js": {
+          "flags": {
+            "esModule": true
+          }
+        },
+        "cjs/childNodes.js": {
+          "flags": {
+            "esModule": true
+          }
+        },
+        "cjs/clear.js": {
+          "flags": {
+            "esModule": true
+          }
+        },
+        "cjs/closest.js": {
+          "flags": {
+            "esModule": true
+          }
+        },
+        "cjs/collectElements.js": {
+          "flags": {
+            "esModule": true
+          }
+        },
+        "cjs/collectSiblings.js": {
+          "flags": {
+            "esModule": true
+          }
+        },
+        "cjs/contains.js": {
+          "flags": {
+            "esModule": true
+          }
+        },
+        "cjs/css.js": {
+          "flags": {
+            "esModule": true
+          }
+        },
+        "cjs/filterEventHandler.js": {
+          "flags": {
+            "esModule": true
+          }
+        },
+        "cjs/getComputedStyle.js": {
+          "flags": {
+            "esModule": true
+          }
+        },
+        "cjs/getScrollAccessor.js": {
+          "flags": {
+            "esModule": true
+          }
+        },
+        "cjs/hasClass.js": {
+          "flags": {
+            "esModule": true
+          }
+        },
+        "cjs/height.js": {
+          "flags": {
+            "esModule": true
+          }
+        },
+        "cjs/hyphenate.js": {
+          "flags": {
+            "esModule": true
+          }
+        },
+        "cjs/hyphenateStyle.js": {
+          "flags": {
+            "esModule": true
+          }
+        },
+        "cjs/index.js": {
+          "flags": {
+            "esModule": true
+          }
+        },
+        "cjs/insertAfter.js": {
+          "flags": {
+            "esModule": true
+          }
+        },
+        "cjs/isDocument.js": {
+          "flags": {
+            "esModule": true
+          }
+        },
+        "cjs/isInput.js": {
+          "flags": {
+            "esModule": true
+          }
+        },
+        "cjs/isTransform.js": {
+          "flags": {
+            "esModule": true
+          }
+        },
+        "cjs/isVisible.js": {
+          "flags": {
+            "esModule": true
+          }
+        },
+        "cjs/isWindow.js": {
+          "flags": {
+            "esModule": true
+          }
+        },
+        "cjs/listen.js": {
+          "flags": {
+            "esModule": true
+          }
+        },
+        "cjs/matches.js": {
+          "flags": {
+            "esModule": true
+          }
+        },
+        "cjs/nextUntil.js": {
+          "flags": {
+            "esModule": true
+          }
+        },
+        "cjs/offset.js": {
+          "flags": {
+            "esModule": true
+          }
+        },
+        "cjs/offsetParent.js": {
+          "flags": {
+            "esModule": true
+          }
+        },
+        "cjs/ownerDocument.js": {
+          "flags": {
+            "esModule": true
+          }
+        },
+        "cjs/ownerWindow.js": {
+          "flags": {
+            "esModule": true
+          }
+        },
+        "cjs/parents.js": {
+          "flags": {
+            "esModule": true
+          }
+        },
+        "cjs/position.js": {
+          "flags": {
+            "esModule": true
+          }
+        },
+        "cjs/prepend.js": {
+          "flags": {
+            "esModule": true
+          }
+        },
+        "cjs/querySelectorAll.js": {
+          "flags": {
+            "esModule": true
+          }
+        },
+        "cjs/remove.js": {
+          "flags": {
+            "esModule": true
+          }
+        },
+        "cjs/removeClass.js": {
+          "flags": {
+            "esModule": true
+          }
+        },
+        "cjs/removeEventListener.js": {
+          "flags": {
+            "esModule": true
+          }
+        },
+        "cjs/scrollLeft.js": {
+          "flags": {
+            "esModule": true
+          }
+        },
+        "cjs/scrollParent.js": {
+          "flags": {
+            "esModule": true
+          }
+        },
+        "cjs/scrollTo.js": {
+          "flags": {
+            "esModule": true
+          }
+        },
+        "cjs/scrollTop.js": {
+          "flags": {
+            "esModule": true
+          }
+        },
+        "cjs/scrollbarSize.js": {
+          "flags": {
+            "esModule": true
+          }
+        },
+        "cjs/siblings.js": {
+          "flags": {
+            "esModule": true
+          }
+        },
+        "cjs/text.js": {
+          "flags": {
+            "esModule": true
+          }
+        },
+        "cjs/toggleClass.js": {
+          "flags": {
+            "esModule": true
+          }
+        },
+        "cjs/transitionEnd.js": {
+          "flags": {
+            "esModule": true
+          }
+        },
+        "cjs/triggerEvent.js": {
+          "flags": {
+            "esModule": true
+          }
+        },
+        "cjs/width.js": {
+          "flags": {
+            "esModule": true
+          }
+        }
+      },
+      "src": {
+        "dir": "./node_modules/dom-helpers",
+        "id": "dom-helpers@5.2.1",
+        "name": "dom-helpers",
+        "version": "5.2.1"
       }
     },
     "js-tokens@4.0.0": {
@@ -499,6 +1651,87 @@
         "version": "16.13.1"
       }
     },
+    "react-transition-group@4.4.5": {
+      "dest": {
+        "dir": "./build/node_modules/react-clay$react-transition-group@4.4.5",
+        "id": "react-clay$react-transition-group@4.4.5",
+        "name": "react-clay$react-transition-group",
+        "version": "4.4.5"
+      },
+      "modules": {
+        "cjs/CSSTransition.js": {
+          "flags": {
+            "esModule": true
+          }
+        },
+        "cjs/ReplaceTransition.js": {
+          "flags": {
+            "esModule": true
+          }
+        },
+        "cjs/SwitchTransition.js": {
+          "flags": {
+            "esModule": true
+          }
+        },
+        "cjs/Transition.js": {
+          "flags": {
+            "esModule": true
+          }
+        },
+        "cjs/TransitionGroup.js": {
+          "flags": {
+            "esModule": true
+          }
+        },
+        "cjs/TransitionGroupContext.js": {
+          "flags": {
+            "esModule": true
+          }
+        },
+        "cjs/config.js": {
+          "flags": {
+            "esModule": true
+          }
+        },
+        "cjs/index.js": {
+          "flags": {
+            "esModule": true
+          }
+        },
+        "cjs/utils/ChildMapping.js": {
+          "flags": {
+            "esModule": true
+          }
+        },
+        "cjs/utils/PropTypes.js": {
+          "flags": {
+            "esModule": true
+          }
+        },
+        "cjs/utils/SimpleSet.js": {
+          "flags": {
+            "esModule": true
+          }
+        },
+        "cjs/utils/reflow.js": {
+          "flags": {
+            "esModule": true
+          }
+        },
+        "dist/react-transition-group.js": {
+          "flags": {
+            "esModule": true
+          }
+        }
+      },
+      "src": {
+        "dir": "./node_modules/react-transition-group",
+        "id": "react-transition-group@4.4.5",
+        "name": "react-transition-group",
+        "version": "4.4.5"
+      }
+    },
     "react@16.8.6": {
       "dest": {
         "dir": "./build/node_modules/react-clay$react@16.8.6",
@@ -511,6 +1744,20 @@
         "id": "react@16.8.6",
         "name": "react",
         "version": "16.8.6"
+      }
+    },
+    "regenerator-runtime@0.13.9": {
+      "dest": {
+        "dir": "./build/node_modules/react-clay$regenerator-runtime@0.13.9",
+        "id": "react-clay$regenerator-runtime@0.13.9",
+        "name": "react-clay$regenerator-runtime",
+        "version": "0.13.9"
+      },
+      "src": {
+        "dir": "./node_modules/@babel/runtime/node_modules/regenerator-runtime",
+        "id": "regenerator-runtime@0.13.9",
+        "name": "regenerator-runtime",
+        "version": "0.13.9"
       }
     },
     "scheduler@0.13.6": {
@@ -552,6 +1799,32 @@
         "id": "scheduler@0.13.6",
         "name": "scheduler",
         "version": "0.13.6"
+      }
+    },
+    "tslib@2.4.0": {
+      "dest": {
+        "dir": "./build/node_modules/react-clay$tslib@2.4.0",
+        "id": "react-clay$tslib@2.4.0",
+        "name": "react-clay$tslib",
+        "version": "2.4.0"
+      },
+      "modules": {
+        "tslib.es6.js": {
+          "flags": {
+            "esModule": true
+          }
+        },
+        "tslib.js": {
+          "flags": {
+            "esModule": true
+          }
+        }
+      },
+      "src": {
+        "dir": "./node_modules/tslib",
+        "id": "tslib@2.4.0",
+        "name": "tslib",
+        "version": "2.4.0"
       }
     },
     "warning@4.0.3": {

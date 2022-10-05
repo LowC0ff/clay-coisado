@@ -1,0 +1,4 @@
+npm run build && docker cp dist/react-clay-1.0.0.jar 46e12df6c71d:/opt/liferay/deploy
+
+
+
